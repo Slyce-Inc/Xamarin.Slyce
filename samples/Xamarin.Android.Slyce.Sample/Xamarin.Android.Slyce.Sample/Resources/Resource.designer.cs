@@ -3282,14 +3282,14 @@ namespace Xamarin.Android.Slyce.Sample
 			// aapt resource value: 0x7f0e0070
 			public const int list_item = 2131624048;
 			
-			// aapt resource value: 0x7f0e017a
-			public const int masked = 2131624314;
+			// aapt resource value: 0x7f0e0179
+			public const int masked = 2131624313;
 			
 			// aapt resource value: 0x7f0e0101
 			public const int media_actions = 2131624193;
 			
-			// aapt resource value: 0x7f0e0178
-			public const int message = 2131624312;
+			// aapt resource value: 0x7f0e0177
+			public const int message = 2131624311;
 			
 			// aapt resource value: 0x7f0e0039
 			public const int middle = 2131623993;
@@ -3828,41 +3828,38 @@ namespace Xamarin.Android.Slyce.Sample
 			// aapt resource value: 0x7f0e0165
 			public const int slyceSearchResultsListItemResultsItem_imageView = 2131624293;
 			
-			// aapt resource value: 0x7f0e0167
-			public const int slyceSearchResultsListItemResultsItem_imageView_feedback = 2131624295;
-			
 			// aapt resource value: 0x7f0e0166
 			public const int slyceSearchResultsListItemResultsItem_textView_headline = 2131624294;
 			
+			// aapt resource value: 0x7f0e0167
+			public const int slyceSearchResultsListItemResultsItem_textView_name = 2131624295;
+			
 			// aapt resource value: 0x7f0e0168
-			public const int slyceSearchResultsListItemResultsItem_textView_name = 2131624296;
+			public const int slyceSearchResultsListItemResultsItem_textView_price = 2131624296;
 			
 			// aapt resource value: 0x7f0e0169
-			public const int slyceSearchResultsListItemResultsItem_textView_price = 2131624297;
-			
-			// aapt resource value: 0x7f0e016a
-			public const int slyceSearchResultsListItemResultsItem_textView_slashedPrice = 2131624298;
+			public const int slyceSearchResultsListItemResultsItem_textView_slashedPrice = 2131624297;
 			
 			// aapt resource value: 0x7f0e0164
 			public const int slyceSearchResultsListItemResultsItem_viewGroup_container = 2131624292;
 			
-			// aapt resource value: 0x7f0e016f
-			public const int slyceStarRatingView_imageView_five = 2131624303;
-			
 			// aapt resource value: 0x7f0e016e
-			public const int slyceStarRatingView_imageView_four = 2131624302;
-			
-			// aapt resource value: 0x7f0e016b
-			public const int slyceStarRatingView_imageView_one = 2131624299;
+			public const int slyceStarRatingView_imageView_five = 2131624302;
 			
 			// aapt resource value: 0x7f0e016d
-			public const int slyceStarRatingView_imageView_three = 2131624301;
+			public const int slyceStarRatingView_imageView_four = 2131624301;
+			
+			// aapt resource value: 0x7f0e016a
+			public const int slyceStarRatingView_imageView_one = 2131624298;
 			
 			// aapt resource value: 0x7f0e016c
-			public const int slyceStarRatingView_imageView_two = 2131624300;
+			public const int slyceStarRatingView_imageView_three = 2131624300;
 			
-			// aapt resource value: 0x7f0e0170
-			public const int slyceTag_textView = 2131624304;
+			// aapt resource value: 0x7f0e016b
+			public const int slyceStarRatingView_imageView_two = 2131624299;
+			
+			// aapt resource value: 0x7f0e016f
+			public const int slyceTag_textView = 2131624303;
 			
 			// aapt resource value: 0x7f0e00f6
 			public const int slyceUiModeError_imageView = 2131624182;
@@ -3909,23 +3906,23 @@ namespace Xamarin.Android.Slyce.Sample
 			// aapt resource value: 0x7f0e00f4
 			public const int slyceWebViewLayer_slyceWebView = 2131624180;
 			
+			// aapt resource value: 0x7f0e0172
+			public const int slyceWebView_progressBar = 2131624306;
+			
 			// aapt resource value: 0x7f0e0173
-			public const int slyceWebView_progressBar = 2131624307;
+			public const int slyceWebView_viewGroup_back = 2131624307;
 			
 			// aapt resource value: 0x7f0e0174
-			public const int slyceWebView_viewGroup_back = 2131624308;
+			public const int slyceWebView_viewGroup_forward = 2131624308;
 			
 			// aapt resource value: 0x7f0e0175
-			public const int slyceWebView_viewGroup_forward = 2131624309;
+			public const int slyceWebView_viewGroup_reload = 2131624309;
 			
 			// aapt resource value: 0x7f0e0176
-			public const int slyceWebView_viewGroup_reload = 2131624310;
+			public const int slyceWebView_viewGroup_share = 2131624310;
 			
-			// aapt resource value: 0x7f0e0177
-			public const int slyceWebView_viewGroup_share = 2131624311;
-			
-			// aapt resource value: 0x7f0e0172
-			public const int slyceWebView_webView = 2131624306;
+			// aapt resource value: 0x7f0e0171
+			public const int slyceWebView_webView = 2131624305;
 			
 			// aapt resource value: 0x7f0e00ac
 			public const int slyce_barcodeScrim = 2131624108;
@@ -4053,8 +4050,8 @@ namespace Xamarin.Android.Slyce.Sample
 			// aapt resource value: 0x7f0e0015
 			public const int textinput_error = 2131623957;
 			
-			// aapt resource value: 0x7f0e0171
-			public const int thumbnail_image_view = 2131624305;
+			// aapt resource value: 0x7f0e0170
+			public const int thumbnail_image_view = 2131624304;
 			
 			// aapt resource value: 0x7f0e0106
 			public const int time = 2131624198;
@@ -4104,8 +4101,8 @@ namespace Xamarin.Android.Slyce.Sample
 			// aapt resource value: 0x7f0e0016
 			public const int view_offset_helper = 2131623958;
 			
-			// aapt resource value: 0x7f0e0179
-			public const int visible = 2131624313;
+			// aapt resource value: 0x7f0e0178
+			public const int visible = 2131624312;
 			
 			// aapt resource value: 0x7f0e0022
 			public const int wide = 2131623970;

@@ -33,8 +33,6 @@ namespace Xamarin.Android.Slyce.Sample
             string spaceId = "n2b4mfqcDji5Q9hyU8h3Ve";
 
 
-
-
             SlyceSDK.Slyce.GetInstance(this).Open(accountId, apiKey, spaceId, new SlyceFragmentLauncher(this));
         }
     }

@@ -1,10 +1,9 @@
 ﻿using SlyceSDK;
 using SlyceSDK.Exception;
-using IT.Slyce.Sdk.Helpers;
 using IT.Slyce.Sdk.Labs;
 using Android.Support.V4.App;
 using System.Collections.Generic;
-using IT.Slyce.Sdk.UI;
+using IT.Slyce.Sdk.Experimental;
 
 
 namespace Xamarin.Android.Slyce.Sample
@@ -28,39 +27,12 @@ namespace Xamarin.Android.Slyce.Sample
             }
             else
             {
-                //System.Diagnostics.Debug.WriteLine("Slyce.GetInstance(this).DefaultSession = " + SlyceSDK.Slyce.GetInstance(activity).DefaultSession.ToString());
-
-                //SlyceUI.FragmentLauncher fragmentLauncher = new SlyceUI.FragmentLauncher(SlyceSDK.Slyce.GetInstance(activity), SlyceActivityMode.Picker, Resource.Id.root);
-
-
-                UIDelegate uIDelegate = new UIDelegate();
-
-
-                //Dictionary<string, Java.Lang.Object> options = new Dictionary<string, Java.Lang.Object>();
-
-                SlyceXamarinUIFactory factory = new SlyceXamarinUIFactory(SlyceSDK.Slyce.GetInstance(activity), SlyceActivityMode.Picker);
-                Fragment slyceFragment = (Fragment)factory.CreateSlyceFragment(null, new CloseDelegate(), uIDelegate);
-
-                
-                //FragmentTransaction ft = activity.SupportFragmentManager.BeginTransaction();
-                //ft.Replace(Resource.Id.fragment_container, slyceFragment);
-                //ft.Commit();
-
-
-
-
-
-
-
-                //activity.StartActivity((Intent)factory.CreateIntentForSlyceActivity(activity, null));
-
-                
-
-                //SlyceUI.ActivityLauncher activityLauncher = new SlyceUI.ActivityLauncher(SlyceSDK.Slyce.GetInstance(activity), SlyceActivityMode.Picker);
-                //activityLauncher.Launch(activity);
+                Fragment slyceFragment = (Fragment)SlyceXamarinUIHelper.CreateSlyceFragment(SlyceSDK.Slyce.GetInstance(activity), SlyceActivityMode.Picker, null, new CloseDelegate(), new UIDelegate());
+                FragmentTransaction ft = activity.SupportFragmentManager.BeginTransaction();
+                ft.Replace(Resource.Id.fragment_container, slyceFragment);
+                ft.Commit();
             }
         }
-
 
 
 
